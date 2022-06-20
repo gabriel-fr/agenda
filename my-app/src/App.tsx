@@ -1,10 +1,12 @@
-import DemoApp from './Calendar';
+import Contacts from "./components/Contacts/Contacts";
+import Search from "./components/Search/Search";
 
 function App() {
   return (
-    <div>
-      <DemoApp/>
-    </div>
+    <>
+      <Search />
+      <Contacts />
+    </>
   );
 }
 
